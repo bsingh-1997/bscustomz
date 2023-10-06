@@ -27,6 +27,19 @@
 .App-link {
   color: #61dafb;
 }
+.ry{
+   display: flex;
+  column-gap: 1vw;
+  margin-top: 2vh; 
+  /* grid-template-columns:  repeat(5, 150px); */
+  
+}
+.prod{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left:450px ;
+  color: rgb(139, 139, 139);
+}
 
 @keyframes App-logo-spin {
   from {
