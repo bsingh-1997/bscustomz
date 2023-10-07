@@ -1,0 +1,33 @@
+/* body{background-color: aqua;} */
+#myForm{
+margin-left: auto;
+display: grid;
+width: 70%;
+margin-right: auto;
+margin-top: 15vh;
+/* background-color: aqua; */
+}
+
+input{
+    margin-bottom: 19px;
+    text-align: center;
+    border-radius: 18px;
+    height: 2.5rem;
+    
+}
+
+textarea{
+    text-align: center;
+    border-radius: 18px;
+    margin-bottom: 40px;
+}
+.buttonin{
+    border-radius: 6px ;
+    background-color: white;
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.buttonin:hover{
+    color: green;
+}

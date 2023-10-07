@@ -2,6 +2,9 @@ import './Home.css'
 import React from 'react'
 import data from "./data.json" 
 import imging from './IMG_9971.jpg'
+import Header from './Header';
+import Footer from './Footer';
+import Alert from './Alert';
 // import imgimg from './items/CMS5144_1.jpg'
 export default function Home() {
     // console.log(data)
@@ -14,6 +17,9 @@ export default function Home() {
     return acc;
   }, {});
   return (
+    <div>
+      <Header />
+      <Alert/>
     <div className='container'>
         {/* <img style={{"height":"160px"}} src={imging}/>
         {data.name}
@@ -32,7 +38,10 @@ export default function Home() {
                 )
         })} */}
         <div className='container'>
-        <img style={{"height":"18vh"}} src={imging}/>
+          <div className='imgelogo'>
+        <img className='mainlogo' src={imging}/>
+
+          </div>
 
         </div>
         <br></br><br></br>
@@ -67,7 +76,8 @@ Join our community of passionate auto enthusiasts and gearheads, and let's take 
                 <br></br>
           <h2 className='container-fluid'>{category}</h2>
           <hr/>
-          <div className="product-list ">
+          <div className="product-container">
+          <div className="product-list">
             {groupedProducts[category].map((product) => (
               <div key={product.name} className="product ">
                 <img style={{"height":"80px" , "display":"flex" , "margin":"auto"}} src={`./${product.image}`} alt={product.title} />
@@ -76,8 +86,11 @@ Join our community of passionate auto enthusiasts and gearheads, and let's take 
               </div>
             ))}
           </div>
+          </div>
         </div>
       ))}
+    </div>
+      <Footer/>
     </div>
   )
 }

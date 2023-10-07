@@ -1,23 +1,41 @@
 .product-list{
     /* display: flex; */
     display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 0fr)); /* Adjust the column width as needed */
-  gap: 10px;
+  /* grid-template-columns: repeat(auto-fill, minmax(150px, 0fr)) */
+  grid-template-columns: repeat(auto-fill, minmax(20vw, 0fr));
+  gap: 15px;
   overflow: auto;
   /* padding: 5mm; */
-    
+  /* padding: 7%; */
+margin: auto;    
+min-width: 20vw;
 }
 .product{
     /* margin-right: 10px; */
     /* border: .5px solid ; */
     transition: transform .2s ease-in-out ;
-    width: 150px;
-    min-width: 150px;
+    width: 40vw;
+    min-width: 34vw;
     /* box-shadow: 5px 10px ; */
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
 }
 .product:hover{
-    transform:scale(1.1);
+    transform:scale(1.1);}
+.imgelogo{
+  margin-top: 3vh;
+}
+.mainlogo{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-container{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: aqua; */
 }
 @media only screen and (max-width: 600px) {
     body {
@@ -27,21 +45,24 @@
     .product-list{
         /* display: flex; */
         display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 0fr)); /* Adjust the column width as needed */
-      gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(39vw, 0fr)); /* Adjust the column width as needed */
+      /* gap: 22vw; */
+      column-gap: 4vw;
+      row-gap: 3vh;
+      
       overflow: auto;
       /* padding: 5mm; */
+      margin-left: 5px;
         
     }
     .product{
-        /* margin-right: 10px; */
-        /* border: .5px solid ; */
-        transition: transform .2s ease-in-out ;
-        width: 150px;
-        min-width: 150px;
-        /* box-shadow: 5px 10px ; */
-        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ;
-    }
+      border: 0.2px solid #f1f1f1;
+      transition: transform .2s ease-in-out ;
+      width: 38vw;
+      min-width: 34vw;
+      /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) ; */
+      box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.5) ;
+  }
     .product:hover{
         transform:scale(1.1);
     }}
