@@ -46,8 +46,9 @@ const ContactForm = () => {
     {alert && <div class="alert alert-primary" style={{marginLeft:".5rem",marginRight:".5rem"}} role="alert">
   {alert}
     </div>}
-    <div className='container'>
-        Send us an email
+    <div className='container' style={{marginLeft:"5rem",marginTop:"3rem"}}>
+        <h3>Send us an email
+            </h3>
     </div>
     <form id="myForm" onSubmit={handleSubmit}>
    <input

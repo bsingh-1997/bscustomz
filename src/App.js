@@ -1,3 +1,5 @@
+import data from "./components/data.json" 
+
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
@@ -7,6 +9,7 @@ import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
 import { Route, Routes } from 'react-router-dom';
 import About from './components/About';
+import ProductDetail from './components/ProductDetail';
 function App() {
   return (
     <div  >
@@ -19,7 +22,17 @@ function App() {
              <Route path="/" element={<Home/>} ></Route>
              <Route path="/about" element={<About/>} ></Route>
              <Route path="/contact" element={<ContactForm/>} ></Route>
-             {/* <Route path="/service" element={<Service/>}></Route> */}
+
+             {/* {data.map((product) => (
+          <Route
+            key={product.name} // Assuming your product data has a unique identifier
+            path={`/product/${product.name}` } element={<ProductDetail product={product} />}
+            // render={() => <ProductDetail product={product} />}
+            
+          />
+        ))} */}
+           <Route path="/product/:productName" element={<ProductDetail />} />
+
           </Routes>
     </div>
   );

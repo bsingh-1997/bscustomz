@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
-export class Header extends Component {
-  render() {
-    let {titlex}= this.props
-    return (
+
+export default function header({ setSearchQuery ,searchbar }) {
+
+  
+    const handleSearchChange = (e) => {
+      setSearchQuery(e.target.value);
+    }
+
+  return (
+    <div>
       <div style={{padding:"0.2rem .5rem 0 .5rem"}}>
         <nav className="navbar navbar-expand-lg bg-light " >
   <div className="container-fluid">
@@ -14,39 +21,28 @@ export class Header extends Component {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home </a>
+          <Link className="nav-link active" aria-current="page" to="/">Home </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#/about">About</a>
+          <Link className="nav-link" to="/about">About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#/contact">Contact us</a>
+          <Link className="nav-link" to="/contact">Contact us</Link>
         </li>
-        {/* <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">contact us</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li> */}
-        {/* <li className="nav-item">
-          <a className="nav-link disabled">Products</a>
-        </li> */}
+        
       </ul>
+      {searchbar && 
       <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
+        <input className="form-control me-2" type="search" placeholder="Search" onChange={handleSearchChange} aria-label="Search"/>
+        {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
       </form>
+      }
     </div>
   </div>
 </nav>
       </div>
-    )
-  }
+    
+    </div>
+  )
 }
-
-export default Header
+  

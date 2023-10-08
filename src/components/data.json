@@ -2,13 +2,15 @@
     {
         "name":"Nighteye",
         "title":"Nighteye 60w led bulbs",
-        "image":"imgss/nigh.jpg",
-        "category":"Bulbs"
+        "image":"imgss/ni1.jpg",
+        "category":"Bulbs",
+        "description":"nighteye 60 watt bulbs to brighten your way , ip67 waterproof , genuine authentication guranteed , comes with one year warrenty , available in most of the sizes like h4,h8 9005 , hb3 .",
+        "price":" 2000$"
     },
     {
         "name":"MonsterVision",
         "title":"130w led bulbs",
-        "image":"imgss/nigh.jpg",
+        "image":"imgss/mv1.jpg",
         "category":"Bulbs"
     },
     {
@@ -17,29 +19,18 @@
         "image":"imgss/original-crystal-eye-130w-automotive-led-light-bulb-for-headlight-and-fog-lamp-8-500x500.jpeg",
         "category":"Bulbs"
     },
+    
     {
-        "name":"Philips",
-        "title":"60w led bulbs",
+        "name":"IPH Projectors",
+        "title":" IPH 3.0 inch BiXenon Projectors",
         "image":"imgss/nigh.jpg",
-        "category":"Bulbs"
+        "category":"Projectors"
     },
     {
-        "name":"Nighteye",
-        "title":"Nighteye 60w led bulbs",
-        "image":"imgss/nigh.jpg",
-        "category":"Bulbs"
-    },
-    {
-        "name":"Nighteye",
-        "title":"Nighteye 60w led bulbs",
-        "image":"imgss/nigh.jpg",
-        "category":"Bulbs"
-    },
-    {
-        "name":"dayeye",
-        "title":" 60w led bulbs",
-        "image":"imgss/nigh.jpg",
-        "category":"Bulbs"
+        "name":"IPH M617",
+        "title":" IPH 3.0 inch BiXenon",
+        "image":"imgss/iph2.jpg",
+        "category":"Projectors"
     },
     {
         "category":"Stickers",
@@ -49,40 +40,36 @@
     },
     {
         "category":"Stickers",
-        "name":"Warning 1",
+        "name":"Warning 2",
         
-        "image":"imgss/Car-Safety-Warning-Rules-Sticker-Car-Decoration-PVC-Decal-Car-Sticker-Car-styling-1-Piece-Exterior.webp"
+        "image":"imgss/w2.jpg"
     },
     {
         "category":"Stickers",
-        "name":"Warning 1",
+        "name":"Warning 3",
         
-        "image":"imgss/Car-Safety-Warning-Rules-Sticker-Car-Decoration-PVC-Decal-Car-Sticker-Car-styling-1-Piece-Exterior.webp"
+        "image":"imgss/w3.jpg"
     },
     {
         "category":"Stickers",
-        "name":"Warning 1",
+        "name":"Warning 4",
         
-        "image":"imgss/Car-Safety-Warning-Rules-Sticker-Car-Decoration-PVC-Decal-Car-Sticker-Car-styling-1-Piece-Exterior.webp"
+        "image":"imgss/w4.jpg"
+    },
+    
+    {
+        "category":"Stickers",
+        "name":"Warning 5",
+        
+        "image":"imgss/w5.jpg"
     },
     {
         "category":"Stickers",
-        "name":"Warning 1",
+        "name":"Warning 6",
         
-        "image":"imgss/Car-Safety-Warning-Rules-Sticker-Car-Decoration-PVC-Decal-Car-Sticker-Car-styling-1-Piece-Exterior.webp"
+        "image":"imgss/w6.jpg"
     },
-    {
-        "category":"Stickers",
-        "name":"Warning 1",
-        
-        "image":"imgss/Car-Safety-Warning-Rules-Sticker-Car-Decoration-PVC-Decal-Car-Sticker-Car-styling-1-Piece-Exterior.webp"
-    },
-    {
-        "category":"Stickers",
-        "name":"Warning 1",
-        
-        "image":"imgss/Car-Safety-Warning-Rules-Sticker-Car-Decoration-PVC-Decal-Car-Sticker-Car-styling-1-Piece-Exterior.webp"
-    },
+    
     {
         "category":"GearKnob",
         "name":"GearKnob",
@@ -90,32 +77,8 @@
         "image":"imgss/knob1.jpg"
     },
     {
-        "name":"Nieye",
-        "title":"Nighteye 60w led bulbs",
-        "image":"imgss/knob2.jpg",
-        "category":"GearKnob"
-    },
-    {
-        "category":"GearKnob",
-        "name":"GearKnob",
-        "title":"Sparco",
-        "image":"imgss/knob1.jpg"
-    },
-    {
-        "name":"Nieye",
-        "title":"Nighteye 60w led bulbs",
-        "image":"imgss/knob2.jpg",
-        "category":"GearKnob"
-    },
-    {
-        "category":"GearKnob",
-        "name":"GearKnob",
-        "title":"Sparco",
-        "image":"imgss/knob1.jpg"
-    },
-    {
-        "name":"Nieye",
-        "title":"Nighteye 60w led bulbs",
+        "name":"GearKnob2",
+        "title":"Sparko cnc gearknob",
         "image":"imgss/knob2.jpg",
         "category":"GearKnob"
     },
@@ -130,5 +93,25 @@
         "title":"Conical air filter",
         "image":"imgss/fn1.jpg",
         "category":"Performance Parts"
+    }
+    ,
+    {
+        "name":"GFX mats",
+        "title":"GFX matts laser cut",
+        "image":"imgss/gfx1.jpg",
+        "category":"Mats"
+    },
+    
+    {
+        "name":"7d mats",
+        "title":"7d matts",
+        "image":"imgss/7d1.jpg",
+        "category":"Mats"
+    },
+    {
+        "name":"Police Flashers",
+        "title":"7 patterns",
+        "image":"imgss/pf1.jpg",
+        "category":"Leds"
     }
 ]
