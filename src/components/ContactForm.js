@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Header from './Header';
 import './contactform.css'
+import Footer from './Footer';
+import Map from './Map';
 const ContactForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -43,11 +45,16 @@ const ContactForm = () => {
 
   return (<>
     <Header/>
+    <div className="heroimg">
+      <h1>Contact Us</h1>
+      <p>Send us an email
+            </p>
+    </div>
     {alert && <div class="alert alert-primary" style={{marginLeft:".5rem",marginRight:".5rem"}} role="alert">
   {alert}
     </div>}
     <div className='container' style={{marginLeft:"5rem",marginTop:"3rem"}}>
-        <h3>Send us an email
+        <h3>Send us a message 
             </h3>
     </div>
     <form id="myForm" onSubmit={handleSubmit}>
@@ -73,7 +80,9 @@ const ContactForm = () => {
      />
    <button className='buttonin' type="submit" disabled={isSendButtonDisabled} >Send</button>
 </form>
-
+<h2 className='container' style={{}}>Find us on Maps</h2>
+<Map/>
+<Footer/>
      </>
   );
 };

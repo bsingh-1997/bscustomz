@@ -1,17 +1,19 @@
-/* body{background-color: aqua;} */
+/* body{background-color:rgb(214, 214, 214);} */
 #myForm{
 margin-left: auto;
 display: grid;
-width: 70%;
+width: 60%;
 margin-right: auto;
-margin-top: 15vh;
+margin-top: 6vh;
 /* background-color: aqua; */
+margin-bottom: 5vh;
+/* background-color: black; */
 }
 
 input{
     margin-bottom: 19px;
     text-align: center;
-    border-radius: 18px;
+    border-radius: 10px;
     height: 2.5rem;
     
 }
@@ -20,6 +22,7 @@ textarea{
     text-align: center;
     border-radius: 18px;
     margin-bottom: 40px;
+    height: 6rem;
 }
 .buttonin{
     border-radius: 6px ;
@@ -32,4 +35,15 @@ textarea{
 }
 .buttonin:hover{
     color: green;
+}
+.heroimg {
+    background-image: url('https://wallpapercave.com/wp/wp5055258.jpg');
+    height: 50vh;
+    background-position: left;
+    background-size: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
 }

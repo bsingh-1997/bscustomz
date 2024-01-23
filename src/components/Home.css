@@ -25,10 +25,10 @@ min-width: 20vw;
   margin-top: 3vh;
 }
 .mainlogo{
-  /* height: 30%; */
-  display: block;
+  height: 30%;
+  /* display: block; */
   margin-left: auto;
-  /* margin-right: auto; */
+  margin-right: auto;
 }
 .product-container{
   width: 90%;
@@ -37,10 +37,265 @@ min-width: 20vw;
   margin-right: auto;
   /* background-color: aqua; */
 }
-.imgelogo{
+/* .imgelogo{
   width: 40%;
     margin-left: auto;
     margin-right: auto;
+} */
+.herocomp{
+  background-image: url('https://static.wixstatic.com/media/3a87a7_969369c2c6bc493b901ed8662bed9ea1~mv2.jpg/v1/fill/w_1547,h_769,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3a87a7_969369c2c6bc493b901ed8662bed9ea1~mv2.jpg');
+  height: 90vh;
+  background-size: cover;
+  background-position: center bottom; /* Adjust this line to change the starting position */
+  /* height: 70vh;  */
+  
+}
+.headingg{
+  color:white;
+  
+    margin-left: 10vw;
+    padding-top: 13vh;
+    /* display: inline-flex; */
+    /* height: 40vh; */
+    /* font-family: fantasy; */
+
+
+}
+.h1h1{
+  font-size: 10vh;
+}
+.frm{
+  margin-top: 10vh;
+  
+}
+.form-input{
+    border: 1px solid rgb(112, 112, 112);
+    margin-bottom: 19px;
+    text-align: center;
+    border-radius: 18px;
+    height: 2.5rem;
+    background: transparent;
+    
+  }
+  .emailbuttn{
+    width: 10vw;
+  border-radius: 18px;
+  margin-left: 1vw;
+    background-color: #ff4a00;
+    height: 2.5rem;
+    min-width: 100px;
+
+}
+.topbar{
+  background-color: rgb(73, 73, 73);
+  color: #f1f1f1;
+  display: flex;
+justify-content: right;
+align-items: center;
+padding-right: 3vw;
+padding-left: 3vw;
+}
+/* .wlcmbox{
+  height: 70vh;
+  background-color: #ff4a00;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+} */
+.wlcmbox {
+  height: 70vh;
+  /* background-color: #00000012; */
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Align text in the center */
+  /* background-image: url('https://th.bing.com/th/id/R.9471679ab874a1d88e77869d7ce7095a?rik=R4zhUezSUquanQ&riu=http%3a%2f%2fwww.studying-in-germany.org%2fwp-content%2fuploads%2f2013%2f12%2fStudy-Mechanical-Engineering-Germany.jpg&ehk=0kSkICRv61m%2bsIcjisQ1wuaC5%2bLy4Ho7koZZoJFzvEA%3d&risl=&pid=ImgRaw&r=0'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 40%; */
+}
+/* code for pics */
+.grid-container {
+  display: grid;
+  grid-template-rows: auto; /* You can adjust the height of rows as needed */
+  grid-template-columns: repeat(5, 1fr); /* Create 5 columns */
+  gap: 3px; /* Adjust the gap between items */
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.grid-item img:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+.wwd{
+  /* height: 100vh; */
+  /* background-color: #00000012; */
+  /* background-color: rgb(235, 235, 235); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 16vh;
+  padding-bottom: 10vh;
+  background-color: #ffffff;
+
+}
+.cds{
+  margin-top: 12vh;
+  display: grid;
+  grid-template-rows: auto; /* You can adjust the height of rows as needed */
+  grid-template-columns: repeat(3, 1fr); /* Create 5 columns */
+  column-gap: 2rem;
+
+}
+.crd{
+/* height: 40vh; */
+  background-color: #ffffff;
+  padding-bottom: 2vh;
+  width: 20vw;
+}
+.box4{
+  background-image: url('https://www.speednik.com/wp-content/blogs.dir/1/files/2014/09/aerodynamics-help-2015-charger-srt-hellcat-reach-204-mph9.jpg');
+  height: 90vh;
+  background-size: 105%;
+  background-position: left ; 
+  /* Adjust this line to change the starting position */
+  /* height: 70vh;  */
+  /* height: 90vh; */
+  /* background-size: fill 100%; Set the width to auto and height to 100% */
+  /* background-position: left ; Adjust this line to change the starting position */
+  overflow: hidden; /* Hide the overflow */
+  background-repeat: no-repeat;
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+.txtf{
+  font-size: 6vw;
+  color: #f1f1f1;
+  font-family: fantasy;
+
+}
+.txtf1{
+  font-size: 6vw;
+  color: #000000;
+  font-family: fantasy;
+
+}
+.txtfy{
+  margin-top: 0;
+  margin-bottom: 3vh;
+  font-family: fantasy;
+
+  font-size: 6vw;
+  color:rgb(255, 255, 0);
+}
+.t4{
+  font-size: x-large;
+  color: white;
+}
+.cds2{
+  display: grid;
+  grid-template-rows: auto; /* You can adjust the height of rows as needed */
+  /* grid-template-columns: repeat(5, 1fr); Create 5 columns */
+  gap: 3px; /* Adjust the gap between items */
+  margin-top: 12vh;
+  /* display: grid; */
+  /* grid-template-rows: auto; You can adjust the height of rows as needed */
+  grid-template-columns: repeat(3, 2fr); /* Create 5 columns */
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+.crd2{
+  background-color: #ffffff;
+  padding-bottom: 2vh;
+}
+.btnbtnvsn{
+  padding-top: 8vh;
+}
+.testimonials{
+  background-image: url('https://th.bing.com/th/id/R.e18dde5b623fb150283f512cf2bcc86f?rik=Fh30vduZIm6NEA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f1BdD4VK.jpg&ehk=%2bUVRsYG4fTB2NUj2DS5h%2be0%2bGRPyndfOkz4%2bcK%2bkoVE%3d&risl=&pid=ImgRaw&r=0');
+  height: 75vh;
+  background-size: 100%;
+  background-position: left ; 
+  /* Adjust this line to change the starting position */
+  /* height: 70vh;  */
+  /* height: 90vh; */
+  /* background-size: fill 100%; Set the width to auto and height to 100% */
+  /* background-position: left ; Adjust this line to change the starting position */
+  overflow: hidden; /* Hide the overflow */
+  background-repeat: no-repeat;
+  padding-top: 0vh;
+  padding-left: 6vw;
+  color: white;
+  font-family: fantasy;
+}
+.testm{
+  display: grid;
+  grid-template-rows: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: -5vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: rgb(221, 221, 221); */
+
+
+  /* gap: 3px; Adjust the gap between items */
+  /* display: grid; */
+  /* grid-template-rows: auto; You can adjust the height of rows as needed */
+  grid-template-columns: repeat(2, 1fr); /* Create 5 columns */
+  /* column-gap: 2rem; */
+  row-gap: 2rem;
+  
+}
+.t1{
+  width: 35vw;
+  background-color: rgb(242, 242, 242);
+  padding: 1rem;
+  /* margin-right: 5vw; */
+}
+.testimg{
+  /* border-radius: 50%; */
+  height: 8vh;
+  border-radius: 70px;
+}
+.newsltr{
+  width: 70%;
+  height: 14vh;
+  background-color: #e7e7e7;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 13vh;
+  margin-bottom: -7vh;
+  position: relative;
+}
+.endbar{
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  background-color: rgb(17, 17, 17);
+}
+.vsnimg{
+  width: 17vw;
 }
 @media only screen and (max-width: 600px) {
   
@@ -69,7 +324,7 @@ min-width: 20vw;
 
     .product:hover{
         transform:scale(1.1);
-    }}
+    }
 .itemslink{
   /* color: black; */
   text-decoration: none;
@@ -85,4 +340,141 @@ min-width: 20vw;
   width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.herocomp {
+  background-image: url('https://static.wixstatic.com/media/3a87a7_969369c2c6bc493b901ed8662bed9ea1~mv2.jpg/v1/fill/w_1547,h_769,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3a87a7_969369c2c6bc493b901ed8662bed9ea1~mv2.jpg');
+  height: 90vh;
+  background-size: cover;
+  background-position: right bottom;
+  /* height: 70vh; */
+}
+.headingg {
+  color: white;
+  margin-left: 3vw;
+  padding-top: 14vh;
+  /* display: inline-flex; */
+  /* height: 40vh; */
+  /* font-family: fantasy; */
+}
+.emailbuttn {
+  width: 34vw;
+  border-radius: 18px;
+  margin-left: 1vw;
+  background-color: #ff4a00;
+  height: 2.5rem;
+  min-width: 100px;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 3px; */
+}
+.crd {
+  margin-bottom: 2vh;
+  /* height: 40vh; */
+  background-color: #ffffff;
+  padding-bottom: 2vh;
+  width: 60vw;
+}
+.box4 {
+  background-image: url('https://www.speednik.com/wp-content/blogs.dir/1/files/2014/09/aerodynamics-help-2015-charger-srt-hellcat-reach-204-mph9.jpg');
+  height: 57vh;
+  background-size: 184%;
+  background-position: left bottom;
+  /* height: 70vh; */
+  /* height: 90vh; */
+  overflow: hidden;
+  background-repeat: no-repeat;
+  padding-top: 7vh;
+  padding-left: 3vw;
+}
+.cds2 {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 3px;
+  margin-top: 9vh;
+  /* display: grid; */
+  grid-template-columns: repeat(1, 2fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+.vsnimg {
+  width: 55vw;
+}
+.testimonials {
+  background-image: url('https://th.bing.com/th/id/R.e18dde5b623fb150283f512cf2bcc86f?rik=Fh30vduZIm6NEA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f1BdD4VK.jpg&ehk=%2bUVRsYG4fTB2NUj2DS5h%2be0%2bGRPyndfOkz4%2bcK%2bkoVE%3d&risl=&pid=ImgRaw&r=0');
+  height: 29vh;
+  background-size: 100%;
+  background-position: left;
+  /* height: 70vh; */
+  /* height: 90vh; */
+  overflow: hidden;
+  background-repeat: no-repeat;
+  padding-top: 1vh;
+  padding-left: 5vw;
+  color: white;
+  font-family: fantasy;
+}
+.t1 {
+  width: 87vw;
+  background-color: rgb(242, 242, 242);
+  padding: 1rem;
+  /* margin-right: 5vw; */
+}
+.testimonials {
+  background-image: url('https://th.bing.com/th/id/R.e18dde5b623fb150283f512cf2bcc86f?rik=Fh30vduZIm6NEA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f1BdD4VK.jpg&ehk=%2bUVRsYG4fTB2NUj2DS5h%2be0%2bGRPyndfOkz4%2bcK%2bkoVE%3d&risl=&pid=ImgRaw&r=0');
+  height: 29vh;
+  background-size: 100%;
+  background-position: left;
+  /* height: 70vh; */
+  /* height: 90vh; */
+  overflow: hidden;
+  background-repeat: no-repeat;
+  padding-top: 1vh;
+  padding-left: 5vw;
+  color: white;
+  font-family: fantasy;
+}
+.newsltr {
+  margin-bottom: 1vh;
+  padding-left: 5vw;
+  width: 100%;
+  height: 10vh;
+  background-color: #e7e7e7;
+  /* display: flex; */
+  /* margin: auto; */
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10vh;
+  /* margin-bottom: -7vh; */
+  /* position: relative; */
+  display: block;
+}
+.cds {
+  margin-top: 12vh;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 2rem;
+}
+.testm {
+  display: grid;
+  grid-template-rows: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: -5vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: rgb(221, 221, 221); */
+  /* display: grid; */
+  grid-template-columns: repeat(1, 1fr);
+  /* column-gap: 2rem; */
+  row-gap: 2rem;
+}
+
 }

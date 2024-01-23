@@ -1,0 +1,30 @@
+/* Custom styles for the navbar */
+.navbar {
+  background-color: #333; /* Set the background color to #333 */
+}
+
+.navbar-brand img {
+  height: 8vh; /* Set the height of the logo */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Set the color of the navbar toggler icon to white */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000000 !important; /* Set the color of the navbar links to white */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #aaa !important; /* Set the color of the navbar links on hover */
+}
+
+/* Custom styles for the search bar */
+.form-control {
+  background-color: #eee; /* Set the background color of the search input */
+}
+
+/* Optional: Add padding to the navbar */
+.navbar {
+  padding: 10px 0;
+}
