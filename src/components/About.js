@@ -8,14 +8,15 @@ export default function About() {
   return (<>
   <Header/>
   {/* <div>
-          <div className='imgelogo'>
+          <div clas
+          sName='imgelogo'>
         <img className='mainlogo' style={{
   width: "100%",
-  display: "block",
+  display: "block",    
   marginLeft: "auto",
   marginRight: "auto"
 }} src={imging}/>
-
+nyhyh
           </div>
 
                 <div style={{"textAlign":"center",width:"80%",marginLeft:"auto",marginRight:"auto"}}>Welcome to BsCustomz - Your Ultimate Destination for Automotive Excellence! 🚀<br></br>
